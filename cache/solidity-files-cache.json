@@ -523,6 +523,50 @@
       "artifacts": [
         "BasicNft"
       ]
+    },
+    "/home/btwkraken/hardhat/hardhat-nft-market-backend/contracts/test/BasicNftTwo.sol": {
+      "lastModificationDate": 1657514752035,
+      "contentHash": "937ab8678d343de2a973b04907bc695d",
+      "sourceName": "contracts/test/BasicNftTwo.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "BasicNftTwo"
+      ]
     }
   }
 }
